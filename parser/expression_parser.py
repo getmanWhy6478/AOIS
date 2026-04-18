@@ -127,13 +127,10 @@ class ExpressionParser:
         return text
 
     def get_variables(self) -> List[str]:
-        """Возвращает список найденных переменных"""
         return self.variables
 
     def get_safe_expr(self) -> str:
-        """Возвращает безопасное выражение для eval"""
         return self.safe_expr
 
     def get_scope(self) -> Dict:
-        """Возвращает контекст для eval"""
         return self.scope
