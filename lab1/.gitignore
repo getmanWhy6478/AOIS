@@ -1,0 +1,15 @@
+# Файлы сборки
+*.xml
+*.iml
+*.puml
+*.pyc
+*.json
+# Каталоги сборки
+/.idea/
+/__pycache__/
+
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+

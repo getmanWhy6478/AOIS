@@ -1,0 +1,14 @@
+[tool.coverage.run]
+# Файлы/директории, которые не учитываются в отчёте о покрытии
+omit = [
+    "main.py",
+    "literature_demo.py",
+    "tests/*",          # Сами тесты обычно исключают
+    "venv/*",
+    "**/__pycache__/*"
+]
+
+[tool.coverage.report]
+# Опционально: скрыть файлы с 0% покрытием из отчёта
+show_missing = true
+skip_empty = true
